@@ -1,0 +1,12 @@
+const http = require("node:http");
+
+const server = http.createServer((req, res) => {
+  if (req.url === "/secret/data") {
+    res.end("There is no secret data to be revealed!");
+  }
+  res.end("Hello World!");
+});
+
+server.listen(8080, "localhost", () =>
+  console.log("server is listening for an incoming request"),
+);

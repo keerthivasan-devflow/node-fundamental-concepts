@@ -4,4 +4,6 @@ const server = http.createServer((req, res) => {
   res.end("Hello World!");
 });
 
-server.listen(7000, "localhost", () => console.log("Server is listening"));
+server.listen(8080, "localhost", () =>
+  console.log("server is listening for an incoming request"),
+);

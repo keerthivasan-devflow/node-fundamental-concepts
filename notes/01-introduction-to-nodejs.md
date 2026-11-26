@@ -1,9 +1,11 @@
-## Introduction to Node JS / Node JS Features / Node JS History
-
-- What is Node.js?
-
 ## Node JS Features
-- Runtime Environment
+
+- Runtime Javascript Engine(Environment) - built on top of Chrome's V8 javascript engine
+- Cross Platform
+- Open Source
+- Node.js executes the javascript code on v8 engine and outside the web browser
+- Server Side Scripting
+- LIBUV
 - Event Driven Architecture (Design / Architectural Pattern)
 - Non-Blocking I/O (Asynchronous I/O)
 - Single-thread (For synchronous code execution)
